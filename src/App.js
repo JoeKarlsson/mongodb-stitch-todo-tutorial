@@ -28,7 +28,7 @@ class App extends Component {
       "mongodb-atlas"
     );
     // Get a reference to the todo database
-    this.db = mongodb.db("todos");
+    this.db = mongodb.db("todo");
 
     this.displayTodosOnLoad();
   }
@@ -38,10 +38,9 @@ class App extends Component {
       .collection("item")
       .find({}, { limit: 1000 })
       .asArray()
-      .then(docs => {
-        console.log("docs.item", docs);
+      .then(todos => {
         this.setState({
-          todos: docs["titem"]
+          todos
         });
       });
   }
@@ -55,7 +54,6 @@ class App extends Component {
 
   addTodo(event) {
     event.preventDefault();
-    console.log("add todo item", this.client.auth.user.id);
     const { value } = this.state;
 
     this.db
@@ -89,7 +87,7 @@ class App extends Component {
         </form>
         <ul>
           {this.state.todos.map(todo => {
-            return <li>{todo}</li>;
+            return <li>{todo.item}</li>;
           })}
         </ul>
       </div>
