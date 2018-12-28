@@ -1,3 +1,11 @@
+# A Gentle Introduction To Setting Up A React and MongoDB Stitch App From Scratch In 10 Minutes
+
+Are you interested in learning how to use the MongoDB Stitch serverless platform? Like many of you, I have been interested in learning more about MongoDB's cloud offerings while simultaneously not spending a dime. This guide is for the developer who only has 10 minutes to spare and who wants to learn a brand new tool from MongoDB.
+Okay, first of all, what is MongoDB Stitch? Well…
+MongoDB Stitch is a cross-platform application on top of MongoDB. Stitch removes the need for tedious boilerplate when setting up a new app and automatically manages your app's backend so you can focus on building what matters.
+
+![todo app](https://user-images.githubusercontent.com/4650739/50530611-0f1e7480-0ac5-11e9-8837-eb7583f1c863.gif)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -36,33 +44,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
