@@ -87,7 +87,7 @@ class App extends Component {
         </form>
         <ul>
           {this.state.todos.map(todo => {
-            return <li>{todo.item}</li>;
+            return <li key={todo._id}>{todo.item}</li>;
           })}
         </ul>
       </div>
