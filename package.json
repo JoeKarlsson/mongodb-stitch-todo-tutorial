@@ -1,9 +1,9 @@
 {
-  "name": "mongodb-stitch-tutorial",
+  "name": "msreactcore",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "mongodb-stitch-browser-sdk": "^4.1.2",
+    "mongodb-stitch-browser-sdk": "4.8.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.2"
@@ -22,5 +22,7 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "keywords": [],
+  "description": ""
 }
